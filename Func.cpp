@@ -12,7 +12,6 @@ char* func(char* str, char* str1) {
 				for (int b = a + 1; b != i + 1; b++) {
 					if (str[b] == str[a]) {
 						boo = 1;
-						goto a;
 					}
 				}
 			if (boo == 0) {
@@ -25,7 +24,6 @@ char* func(char* str, char* str1) {
 					count++;
 				}
 			}
-		a:
 			j = 0;
 			boo = 0;
 		}
