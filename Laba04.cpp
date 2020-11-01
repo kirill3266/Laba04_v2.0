@@ -9,7 +9,7 @@ void proverka(char* str) {
 
 int strlen(char* str) {
 	int i = 0;
-	for (i = 0; str[i] != '\n'; i++);
+	for (i = 0; str[i] != '\0'; i++);
 	return i;
 }
 
